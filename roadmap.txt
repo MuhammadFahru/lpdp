@@ -1,0 +1,23 @@
+Roadmap
+
+1. Bikin repo di github
+2. Cari refensi design
+3. Komponen yang digunakan (HTML, CSS, JS)
+4. Mengumpulkan asset
+5. Coding :
+    - HTML
+    - CSS
+    - JS
+6. [index.html | HTML + CSS] Navbar
+7. [index.html | HTML + CSS] Content (Hero Section, Services Section, About Section) (Sesuai kebutuhan)
+8. [index.html | HTML + CSS] Footer
+8.5 Trial and Error index.html sebelum lanjut ke halaman lain
+    - Inspect Element
+    - Cek Responsive menggunakan extension Emmet Review
+    - Cari di stackoverflow
+    - Buku pintar referensi css w3schools, codepen.io, css-tricks.com, 
+    - Masuk komunitas contohnya Discord WPU
+9.  [!index.html | HTML + CSS] Navbar
+10. [!index.html | HTML + CSS] Content (Hero Section, Services Section, About Section) (Sesuai kebutuhan)
+11. [!index.html | HTML + CSS] Footer
+12. Lakukan cara yang sama untuk halaman lainnya dari mulau 9 - 11
