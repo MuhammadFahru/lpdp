@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+* {    
     box-sizing: border-box;
     text-decoration: none;
-    border: none;
-    outline: none;
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
@@ -16,6 +12,11 @@ html {
     overflow-x: hidden;
     scroll-padding-top: 5rem;
     scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -95,6 +96,14 @@ header #menu-btn {
 
 .hero-award {
     background: url('../img/award.jpg') center center/cover;
+    position: relative;
+    height: 40vh;
+    display: flex;    
+    align-items: center;
+}
+
+.hero-contact {
+    background: url('../img/contact.png') center center/cover;
     position: relative;
     height: 40vh;
     display: flex;    
@@ -273,6 +282,68 @@ header #menu-btn {
     width: 80%;
 }
 
+th, td {
+    font-size: 14px;
+}
+
+.award-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.award-content-item {
+    width: 33%;
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    height: 700px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    padding: 8px;
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+.submit {
+    background-color: #fff;
+    padding: 15px 25px 15px 25px;
+    color: #ff6900;
+    font-size: 14px;
+    border: 1px solid #ff6900;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #ff6900;
+    padding: 15px 25px 15px 25px;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
 @media (max-width: 991px) {
     html {
         font-size: 85%;
@@ -365,5 +436,10 @@ header #menu-btn {
 
     .logo-footer {
         width: 30%;
+    }
+
+    .video {
+        width: 100%;
+        height: 280px;
     }
 }
